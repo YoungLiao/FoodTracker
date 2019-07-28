@@ -37,7 +37,7 @@ namespace AspNetCore
                     builder
                         .AllowAnyHeader()
                         .AllowAnyMethod()
-                        .AllowCredentials()
+                        // .AllowCredentials()
                         .WithOrigins("http://localhost:8080");
                     });
             });
